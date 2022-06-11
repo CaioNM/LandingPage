@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, rgba(25,88,16,1) 11%, rgba(16,181,15,1) 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+}
+
+.logo_cabecalho{
+    height: 72px;
+}
+
+.menu_cabecalho{
+    display: flex;
+    gap: 40px
+}
+
+.cabecalho_menuItem{
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+.conteudo_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo_principalEscrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px
+}
+
+.conteudo_principalEscrito_titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: aliceblue;
+}
+
+.conteudo_principalEscrito_subtitulo{
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo_principalEscrito_botao{
+    background-color: azure;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.conteudo_principalEscrito_imagem{
+    height: 430px;
+}
+
+.conteudo_secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo_secundario_titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+
+.conteudo_secundario_paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: aliceblue;
+}
