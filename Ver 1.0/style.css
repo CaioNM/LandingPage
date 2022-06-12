@@ -10,7 +10,7 @@
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, rgba(25,88,16,1) 11%, rgba(16,181,15,1) 100%);
+    background: linear-gradient(68.15deg, #FF033E 11%, #BA0021 100%);
 }
 
 .cabecalho {
@@ -109,8 +109,35 @@ body{
 .conteudo_secundario_paragrafo{
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 19px;
     color: aliceblue;
+}
+
+.conteudo_secundario_paragrafo_II{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: aliceblue;
+    padding-bottom: 128px;
+}
+
+.conteudo_sobremim{
+        border-top: 0.4px solid #FFF2E7;
+        margin-bottom: 48px;
+}
+
+.conteudo_sobremim_titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+
+.conteudo_sobremim_texto{
+    text-align-last: left;
 }
 
 .rodape{
