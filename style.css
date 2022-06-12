@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
 
 * {
     margin: 0;
@@ -17,7 +18,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 22px;
+    padding: 15px;
 }
 
 .logo_cabecalho{
@@ -26,7 +27,7 @@ body{
 
 .menu_cabecalho{
     display: flex;
-    gap: 40px
+    gap: 35px
 }
 
 .cabecalho_menuItem{
@@ -50,7 +51,7 @@ body{
 .conteudo_principalEscrito{
     display: flex;
     flex-direction: column;
-    gap: 32px
+    gap: 20px
 }
 
 .conteudo_principalEscrito_titulo{
@@ -77,6 +78,10 @@ body{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 16px;
+}
+
+.conteudo_principalEscrito_botao:hover{
+    background-color: rgba(227, 224, 222, 0.9);
 }
 
 .conteudo_principalEscrito_imagem{
@@ -106,4 +111,17 @@ body{
     font-weight: 300;
     font-size: 18px;
     color: aliceblue;
+}
+
+.rodape{
+    padding: 5px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.assinatura{
+    font-family: 'Whisper', cursive;
+    font-weight: 400;
+    font-size: 75px;
+    color: aliceblue;
+    text-align: center;
 }
