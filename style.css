@@ -113,33 +113,6 @@ body{
     color: aliceblue;
 }
 
-.conteudo_secundario_paragrafo_II{
-    font-family: 'Sarala', sans-serif;
-    font-weight: 300;
-    font-size: 19px;
-    color: aliceblue;
-    padding-bottom: 128px;
-}
-
-.conteudo_sobremim{
-        border-top: 0.4px solid #FFF2E7;
-        margin-bottom: 48px;
-}
-
-.conteudo_sobremim_titulo{
-    border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 24px;
-    color: aliceblue;
-    margin-bottom: 16px;
-}
-
-.conteudo_sobremim_texto{
-    text-align-last: left;
-}
-
 .rodape{
     padding: 5px;
     border-top: 0.4px solid #FFF2E7;
